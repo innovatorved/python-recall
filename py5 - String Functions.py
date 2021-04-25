@@ -69,3 +69,16 @@ my name the ved prakash Gupta Developer at Next Innovation . heloo EveryOne my n
 """
 
 # -------------------------------------
+
+# split function in string
+# -- return string as list : stringname.split("character from you want to split")
+msg = "$del everthing present in db"
+print(msg.split())
+# Output :['$del', 'everthing', 'present', 'in', 'db']
+
+# ---- some split metheods
+# __stringname__.split("char you wan to split" , from which index)
+# if you want to delete first word from string
+print(msg.split(" " , 1)) # Output : ['$del', 'everthing present in db'] then print index 1
+a = msg.split(" " , 1)[1]
+print(a)
