@@ -9,7 +9,7 @@ class nump:
     def full(self): # behave like property doesn't need to make Parentheses
         return f"{self.start}  {self.end}"
 
-    @full.setter
+    @full.setter # when any full = any argument 
     def full(self , startend):
         start = startend[0:3]
         end = startend[3:]

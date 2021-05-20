@@ -8,8 +8,7 @@ class Student:
     _protected_var = "this is private var"
     __private_var = "this is private var"
 
-    def __init__(self ,
-                 public , protected , private):
+    def __init__(self ,public , protected , private):
         self.public = public
         self._protected = protected
         self.__private = private
